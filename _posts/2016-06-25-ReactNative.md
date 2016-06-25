@@ -10,7 +10,7 @@ title: 페이스북의 인기 오픈소스 기술, "리액트란"?
 
 ![MVC](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_01_V_of_MVC-re.jpg)
 
-뷰와 관련된 UI만 구현하고픈 개발자가 있다면, 리액트의 장점을 크게 느낄 수 있다. 리액트는 커스텀 태그를 지원하고 있다. 커스텀 태그란 h1 select처럼 미리 지정된 태그 외에 나만의 태그를 만들어 웹을 개발하는 방식이다. 커스텀 태그로 웹을 개발하는 방식은 최근 주목받는 웹 개발 트렌드 중 하나다.
+뷰와 관련된 UI만 구현하고픈 개발자가 있다면, 리액트의 장점을 크게 느낄 수 있다. 리액트는 커스텀 태그를 지원하고 있다. 커스텀 태그란 h1, select처럼 미리 지정된 태그 외에 나만의 태그를 만들어 웹을 개발하는 방식이다. 커스텀 태그로 웹을 개발하는 방식은 최근 주목받는 웹 개발 트렌드 중 하나다.
 
 ![custom_tag](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_03_custom_tag.jpg)
 
