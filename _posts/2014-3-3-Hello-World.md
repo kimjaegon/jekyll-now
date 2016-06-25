@@ -1,7 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: 페이스북의 인기 오픈소스 기술, "리액트란"?
 ---
+
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
