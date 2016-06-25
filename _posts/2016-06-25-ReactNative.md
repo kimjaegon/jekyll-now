@@ -10,4 +10,22 @@ title: 페이스북의 인기 오픈소스 기술, "리액트란"?
 
 ![MVC](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_01_V_of_MVC-re.jpg)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+뷰와 관련된 UI만 구현하고픈 개발자가 있다면, 리액트의 장점을 크게 느낄 수 있다. 리액트는 커스텀 태그를 지원하고 있다. 커스텀 태그란 <h1>,<select>처럼 미리 지정된 태그 외에 나만의 태그를 만들어 웹을 개발하는 방식이다. 커스텀 태그로 웹을 개발하는 방식은 최근 주목받는 웹 개발 트렌드 중 하나다.
+
+![custom_tag](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_03_custom_tag.jpg)
+
+개발자는 ‘React.createClass’같은 문법을 활용해 리액트 안에서 커스텀 태그를 만들 수 있다. 커스텀 태그는 각 기능을 모듈화하고 향후 전체 코드를 쉽게 이해할 수 있게 돕고, 개발자는 소스코드 수정과 재활용도 더 편히 할 수 있다. 가령 <덧글앱>이라는 태그를 만들고, 그 안에 <덧글 목록>을 만들고, <덧글 목록>안에 다시 <덧글 내용>을 정의한다. 개발자는 나중에 미리 정의된 <덧글 내용> 기능을 재활용할 수 있다. 태그로 정의된 하나의 기능 혹은 재활용할 수 있는 요소를 컴포넌트라고 부른다.  이 외에도 리액트는 가상 DOM을 지원하고 단방향 데이터 바인딩 기능 등을 제공해 주목을 받고 있다.
+
+![component](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_02_component1-800x643.jpg)
+
+리액트가 좀 더 부상하게 된 계기는 올해 발표된 ‘리액트 네이티브’ 덕분이었다. 리액트 네이티브는 네이티브 모바일 앱을 만들기 위한 프레임워크다. 리액트 네이티브는 리액트를 기반으로 개발됐다. 리액트가 웹 개발자 혹은 하이브리드 앱 개발자에게 관심을 끌 수 있는 기술이라면, 리액트 네이티브는 모바일 개발자들이 주목할 만한 기술이다. 2015년 1월 리액트 컨퍼런스에서 발표됐다.
+
+![native_logo](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_07_React_Native_logo.jpg)
+
+대다수 모바일 앱은 하이브리드 앱이 아닌 네이티브 앱 형식으로 개발된다. 일반적으로 하이브리드 앱, 다시말해 안드로이드와 iOS에서 동시에 작동하는 소스코드를 작성하려면 ‘웹뷰’를 이용해야 했다. 웹뷰를 이용한 하이브리드 앱 기술은 기존 네티이브 앱에서 지원하는 속성을 이용하지 못했다. 여기서 리액트 네이티브만의 차이점이 나온다. 리액트 네이티브를 이용하면<TabBarIOS>같은 애플이 지원하는 네이티브 속성에 그대로 이용할 수 있다.
+
+![tabbar_ios](https://raw.githubusercontent.com/kimjaegon/kimjaegon.github.io/master/images/react_04_TabBarIOS-800x520.jpg)
+
+또한 자바스크립트는 컴파일 된 자바, 오브젝티브C에 비해 느린 언어다. 자바스크립트로 앱을 만들어도 언어의 한계 때문에 병목 현상이 일어난다. 리액트 네이티브는 자바스크립트 코드와 네이티브 코드를 별도 스레드로 분리한 뒤 둘 사이의 통신을 비동기식으로 만든다. 이 때문에 네이티브가 자바스크립트 때문에 느려지는 현상이 없어진다. 기존 하이브리드 앱보다 좋은 성능 덕에 리액트 네이티브는 더 주목받았다.
+
+리액트를 적극 활용한 대표 서비스는 인스타그램이다. 그 외에도 넷플릭스, 에어비앤비, 세일즈포스의 웹서비스에도 리액트가 사용됐다. 깃허브의 ‘아톰 에디터’같은 데스크톱 응용프로그램에도 리액트가 활용됐다. 현재 깃허브 코드 저장소의 인기를 보여주는 ‘스타’ 수도 꾸준히 올라가고 있고, 실제 소스코드 업데이트 주기도 빨라지고 있다.
