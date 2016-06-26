@@ -14,10 +14,11 @@ layout: default
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       
-       <div align=right class="date">
-        Written on {{ date: "%B %e, %Y" }}
+      <div align=right class="date">
+        Written on {{ page.date | date: "%B %e, %Y" }}
       </div>
-
+ 
+  {% include disqus.html %}
     </article>
   {% endfor %}
 </div>
