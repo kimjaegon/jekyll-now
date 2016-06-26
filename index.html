@@ -14,7 +14,10 @@ layout: default
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       
-      <h3 align=right class="date">Date</h3>
+       <div align=right class="date">
+        Written on {{ page.date | date: "%B %e, %Y" }}
+      </div>
+
     </article>
   {% endfor %}
 </div>
